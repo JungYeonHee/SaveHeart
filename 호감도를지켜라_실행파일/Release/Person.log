@@ -1,0 +1,29 @@
+﻿빌드 시작: 2019-08-02 오전 2:58:49
+     1>2 노드의 "C:\Users\권혜영\Desktop\class(5)\Person\Person.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\Person.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\권혜영\desktop\class(5)\person\util.h(97): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\class(5)\person\util.h(125): warning C4244: '초기화 중' : 'LONG'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\class(5)\person\util.h(125): warning C4244: '초기화 중' : 'LONG'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\class(5)\person\HeartGame.h(79): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\class(5)\person\HeartGame.h(217): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\권혜영\Desktop\class(5)\Release\Person.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Person.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\권혜영\Desktop\class(5)\Release\Person.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\권혜영\Desktop\class(5)\Release\Person.lib" /MACHINE:X86 Release\main.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         Person.vcxproj -> C:\Users\권혜영\Desktop\class(5)\Release\Person.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\권혜영\Desktop\class(5)\Release\Person.exe;#1" /manifest Release\Person.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Release\Person.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\Person.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\권혜영\Desktop\class(5)\Person\Person.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.04

@@ -1,0 +1,270 @@
+﻿빌드 시작: 2019-08-14 오후 6:58:37
+     1>2 노드의 "C:\Users\권혜영\Desktop\수정본_1\SaveHeart\SaveHeart.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\SaveHeart.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\util.h(105): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\util.h(137): warning C4244: '초기화 중' : 'LONG'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\util.h(137): warning C4244: '초기화 중' : 'LONG'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(23): warning C4101: 'start' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(20): warning C4101: 'frontLine' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(19): warning C4101: 'front' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(209): warning C4101: 'start' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(206): warning C4101: 'frontLine' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Draw.h(205): warning C4101: 'front' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Screen.h(114): warning C4101: 'Temp' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Screen.h(119): warning C4101: 'start' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Screen.h(116): warning C4101: 'frontLine' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\Screen.h(115): warning C4101: 'front' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(69): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(91): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(104): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(116): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(183): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(186): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(198): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(211): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethBrushGame.h(212): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(64): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(82): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(95): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(96): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(127): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(130): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(242): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(243): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(267): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(268): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(291): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(292): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(316): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(317): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(341): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(342): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(366): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(367): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(391): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(392): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(416): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(417): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(441): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(442): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(466): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(467): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(491): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(492): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(516): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(517): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(541): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(542): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(566): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(567): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(591): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(592): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(616): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(617): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(641): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(642): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(666): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(667): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(691): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(692): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(716): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(717): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(741): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(742): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(766): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(767): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(791): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(792): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(816): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(817): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(841): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(842): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(866): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(867): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(891): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(892): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(916): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(917): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(941): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(942): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(966): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(967): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(991): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(992): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1016): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1017): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1041): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1042): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1066): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1067): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1091): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1092): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1114): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\detachTearGame.h(1115): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(90): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(100): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(101): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(88): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(89): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(128): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(132): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(114): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(114): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(147): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(153): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(163): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooingGame.h(401): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(89): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(203): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(344): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(399): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(448): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(495): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(542): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(621): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(673): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(732): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(782): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(830): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(878): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1000): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1039): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1242): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1345): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(130) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1346): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\HeartGame.h(1833): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 'getch' 선언을 참조하십시오.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\권혜영\Desktop\수정본_1\Release\SaveHeart.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SaveHeart.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\권혜영\Desktop\수정본_1\Release\SaveHeart.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\권혜영\Desktop\수정본_1\Release\SaveHeart.lib" /MACHINE:X86 Release\main.obj
+         코드를 생성하고 있습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\shampooinggame.h(303): warning C4715: 'shampooResult' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\teethbrushgame.h(165): warning C4715: 'game' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\heartgame.h(916): warning C4715: 'Game::gagPick' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>c:\users\권혜영\desktop\수정본_1\saveheart\heartgame.h(580): warning C4715: 'Game::quiz' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+         코드를 생성했습니다.
+         SaveHeart.vcxproj -> C:\Users\권혜영\Desktop\수정본_1\Release\SaveHeart.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\권혜영\Desktop\수정본_1\Release\SaveHeart.exe;#1" /manifest Release\SaveHeart.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Release\SaveHeart.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\SaveHeart.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\권혜영\Desktop\수정본_1\SaveHeart\SaveHeart.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.67
